@@ -14,10 +14,10 @@ namespace InternalAM
      */
     class MyClass
     {
-        int a;
+        internal int a;
         internal MyClass()
         {
-            a = 10;
+           a =10;
         }
         public void Display()
         {
@@ -26,11 +26,9 @@ namespace InternalAM
     }
     class NewClass
     {
-       
-
         public void Method()
         {
-            NewClass obj= new NewClass();
+            MyClass obj= new MyClass();
             Console.WriteLine(obj.a);
         }
     }
@@ -42,7 +40,7 @@ namespace InternalAM
             obj.Display();
             NewClass obj2= new NewClass();
             obj2.Method();
-                Student std=new Student();
+            Student std=new Student();
             std.DisplayDetails();
 
         }
