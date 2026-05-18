@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="InternalAM/InternalAM.csproj" />
+  <Project Path="StudentData/StudentData.csproj" />
+</Solution>
